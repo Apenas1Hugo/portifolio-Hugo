@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);  //use state para controlar o menu mobile
-  const links = ['Sobre', 'Habilidades', 'Projetos', 'Contatos']; //links do menu
+  const links = ['Sobre', 'Habilidades', 'Projetos']; //links do menu
 
   return (
     <nav className="bg-[rgb(13,27,42)] text-[rgb(224,225,221)] p-5 font-serif">

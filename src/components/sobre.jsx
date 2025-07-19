@@ -11,10 +11,9 @@ const Sobre = () => {
   bg-[rgb(65,90,119)]
   p-8 mx-auto max-w-4xl
   rounded-xl
-  mt-12  
+  mt-25  
   "
       >
-       
         <div
           className="
     flex flex-col items-center space-y-2
@@ -37,7 +36,6 @@ const Sobre = () => {
           </h1>
         </div>
 
-        
         <div className="md:max-w-md">
           <p className="text-[rgb(224,225,221)]">
             Tenho 20 anos e estou concluindo o curso de Análise e
