@@ -60,7 +60,7 @@ export default function Navbar() {
 
   
       {isOpen && (
-        <div className="md:hidden flex flex-col space-y-4 mt-4 text-2xl"> {/*mapeamneot dos links mobile */}
+        <div className="md:hidden flex flex-col space-y-4 mt-4 text-2xl"> {/*mapeamento dos links mobile */}
           {links.map(label => (
             <a
               key={label}

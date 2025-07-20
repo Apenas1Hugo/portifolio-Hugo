@@ -3,10 +3,10 @@ import React from "react";
 const Sobre = () => {
   return (
     <>
-      <div
+      <div //div principal
         className="
   flex flex-col md:flex-row
-  items-center justify-center
+  items-center justify-center   
   gap-8
   bg-[rgb(65,90,119)]
   p-8 mx-auto max-w-4xl
@@ -14,10 +14,10 @@ const Sobre = () => {
   mt-25  
   "
       >
-        <div
+        <div    //div com a foto e nome
           className="
     flex flex-col items-center space-y-2
-    p-4 rounded-lg flex-shrink-0
+    p-4 rounded-lg flex-shrink-0 
   "
         >
           <img
@@ -36,7 +36,8 @@ const Sobre = () => {
           </h1>
         </div>
 
-        <div className="md:max-w-md">
+           {/*div com texto*/}
+        <div className="md:max-w-md"> 
           <p className="text-[rgb(224,225,221)]">
             Tenho 20 anos e estou concluindo o curso de Análise e
             Desenvolvimento de Sistemas. Busco minha primeira oportunidade no

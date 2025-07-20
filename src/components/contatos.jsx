@@ -26,23 +26,23 @@ const contatos = () => {
           </a>
 
           <div className="flex space-x-4 text-xl">
-            <a
-              href="https://github.com/Apenas1Hugo"
+            <a //Github
+              href="https://github.com/Apenas1Hugo"                    
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[rgb(65,90,119)] transition-colors"
             >
               <FaGithub />
             </a>
-            <a
-              href="mailto:hugorodriguesm27@gmail.com"
+            <a //Email
+              href="mailto:hugorodriguesm27@gmail.com"                 
               className="hover:text-[rgb(65,90,119)] transition-colors"
             >
               <FaEnvelope />
             </a>
-            <a
+            <a //Linkedin
               href=" "
-              target="_blank"
+              target="_blank"                                            
               rel="noopener noreferrer"
               className="hover:text-[rgb(65,90,119)] transition-colors"
             >
