@@ -8,7 +8,6 @@ function App() {
   return (
     <>
     <NavBar/>
-    <Sobre/>
     <Habilidades/>
     <Contatos/>
     </>

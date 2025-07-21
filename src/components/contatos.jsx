@@ -12,7 +12,9 @@ const contatos = () => {
         bg-[rgb(13,27,42)]
         text-[rgb(224,225,221)]
         py-6
-        z-10"
+        z-10
+        "
+        
       >
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 space-y-4 md:space-y-0">
           <p className="text-sm">© Hugo Rodrigues 2025</p>
