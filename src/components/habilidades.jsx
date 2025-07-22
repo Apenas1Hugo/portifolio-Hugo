@@ -1,25 +1,44 @@
 import React from "react";
-import { FaHtml5, FaCss3,} from "react-icons/fa";
+import { FaHtml5, FaCss3, FaPython, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
+import { RiTailwindCssFill } from "react-icons/ri";
 const skills = [
   {
     id: 1,
     name: "HTML",
     icon: <FaHtml5 />,
-    percentage: 62.67,
+    percentage: 50,
   },
   {
     id: 2,
     name: "CSS",
-    icon: <FaCss3/>,
-    percentage: 12.21,
+    icon: <FaCss3 />,
+    percentage: 45,
   },
   {
     id: 3,
     name: "JavaScript",
-    icon: <IoLogoJavascript/>,
-    percentage: 12.93,
-  }
+    icon: <IoLogoJavascript />,
+    percentage: 55,
+  },
+  {
+    id: 4,
+    name: "TailWind",
+    icon: <RiTailwindCssFill />,
+    percentage: 45,
+  },
+  {
+    id: 5,
+    name: "Python",
+    icon: <FaPython />,
+    percentage: 30,
+  },
+  {
+    id: 6,
+    name: "React",
+    icon: <FaReact />,
+    percentage: 35,
+  },
 ];
 
 export default function Habilidades() {

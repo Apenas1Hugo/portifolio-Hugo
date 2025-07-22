@@ -1,6 +1,7 @@
 import NavBar from "./components/navBar"
 import Sobre from "./components/sobre"
 import Habilidades from "./components/habilidades"
+import Projetos from "./components/projetos"
 import Contatos from "./components/contatos"
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
     <NavBar/>
-    <Habilidades/>
+    <Projetos/>
     <Contatos/>
     </>
   )
