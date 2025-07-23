@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 const projects = [
   {
     id: 1,
-    img: "/images/projeto1.png",
+    img: "/imagens/projeto1.png",
     titulo: "To-do list",
     texto: "Uma To-do list simples criada com html,css e JavaScript",
     link: "https://github.com/Apenas1Hugo/To-do-list",
@@ -19,6 +19,7 @@ export default function Projetos() {
         bg-[rgb(65,90,119)]
         p-8 mx-auto max-w-4xl
         rounded-xl mt-8 pb-24
+        mb-15
       "
     >
       <h2 className="text-3xl font-serif text-[rgb(224,225,221)] mb-6 text-center">
@@ -36,7 +37,13 @@ export default function Projetos() {
               shadow-lg
             "
           >
-            <img src={img} alt={titulo} className="w-full h-48 object-cover" />
+            <div className="w-full h-40 overflow-hidden">
+              <img
+                src={img}
+                alt={titulo}
+                className="object-cover"
+              />
+            </div>
 
             <div className="p-4 flex flex-col flex-grow">
               <h3 className="text-xl font-semibold text-[rgb(224,225,221)] mb-2">
