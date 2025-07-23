@@ -7,7 +7,7 @@ const skills = [
     id: 1,
     name: "HTML",
     icon: <FaHtml5 />,
-    percentage: 50,
+    percentage: 45,
   },
   {
     id: 2,
@@ -19,13 +19,13 @@ const skills = [
     id: 3,
     name: "JavaScript",
     icon: <IoLogoJavascript />,
-    percentage: 55,
+    percentage: 35,
   },
   {
     id: 4,
     name: "TailWind",
     icon: <RiTailwindCssFill />,
-    percentage: 45,
+    percentage: 50,
   },
   {
     id: 5,
