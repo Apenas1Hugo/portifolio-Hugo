@@ -37,11 +37,11 @@ export default function Projetos() {
               shadow-lg
             "
           >
-            <div className="w-full h-40 overflow-hidden">
+            <div className="w-full overflow-hidden">
               <img
                 src={img}
                 alt={titulo}
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
 
