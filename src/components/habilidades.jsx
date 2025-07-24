@@ -2,7 +2,7 @@ import React from "react";
 import { FaHtml5, FaCss3, FaPython, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
-const skills = [
+const skills = [ //lista das skills
   {
     id: 1,
     name: "HTML",
@@ -51,7 +51,7 @@ export default function Habilidades() {
         mx-auto max-w-4xl
         rounded-xl
         mt-8
-        pb-24
+        pb-14
       "
     >
       <h2 className="text-3xl font-serif text-[rgb(224,225,221)] mb-6 text-center">

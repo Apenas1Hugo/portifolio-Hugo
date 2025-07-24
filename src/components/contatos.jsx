@@ -4,8 +4,9 @@ import { FaPhone, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const contatos = () => {
   return (
     <>
-      <footer //fixed é para fixar o footer no fim da pagina
-        className="fixed
+      <footer 
+        className="
+        mt-12
         bottom-0
         left-0
         w-full

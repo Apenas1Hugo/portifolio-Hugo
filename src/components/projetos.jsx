@@ -18,7 +18,7 @@ export default function Projetos() {
       className="
         bg-[rgb(65,90,119)]
         p-8 mx-auto max-w-4xl
-        rounded-xl mt-8 pb-24
+        rounded-xl mt-8 pb-14
         mb-15
       "
     >
@@ -41,7 +41,7 @@ export default function Projetos() {
               <img
                 src={img}
                 alt={titulo}
-                className="object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -66,7 +66,7 @@ export default function Projetos() {
                 "
               >
                 <FaGithub className="mr-2" />
-                Veja mais
+                Acesse o repositório
               </a>
             </div>
           </div>

@@ -1,18 +1,24 @@
-import NavBar from "./components/navBar"
-import Sobre from "./components/sobre"
-import Habilidades from "./components/habilidades"
-import Projetos from "./components/projetos"
-import Contatos from "./components/contatos"
+// src/App.jsx
+import { useState } from "react";
+import NavBar from "./components/NavBar";
+import Sobre from "./components/Sobre";
+import Habilidades from "./components/Habilidades";
+import Projetos from "./components/Projetos";
+import Contatos from "./components/Contatos";
 
-function App() {
+export default function App() {
+  const [secaoAtiva, setSecaoAtiva] = useState("Sobre");
 
   return (
-    <>
-    <NavBar/>
-    <Projetos/>
-    <Contatos/>
-    </>
-  )
-}
+    <div className="flex flex-col min-h-screen">
+      <NavBar secaoAtiva={secaoAtiva} onChangeSecao={setSecaoAtiva} />
 
-export default App
+      <main className="flex-grow">
+        {secaoAtiva === "Sobre" && <Sobre />}
+        {secaoAtiva === "Habilidades" && <Habilidades />}
+        {secaoAtiva === "Projetos" && <Projetos />}
+      </main>
+      <Contatos/>
+    </div>
+  );
+}
