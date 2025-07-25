@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 const projects = [
   {
     id: 1,
-    img: "/imagens/projeto1.png",
+    img: "/imagens/projeto1.jpg",
     titulo: "To-do list",
     texto: "Uma To-do list simples criada com html,css e JavaScript",
     link: "https://github.com/Apenas1Hugo/To-do-list",
