@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPhone, FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-const contatos = () => {
+const Contatos = () => {
   return (
     <>
       <footer 
@@ -58,4 +58,4 @@ const contatos = () => {
   );
 };
 
-export default contatos;
+export default Contatos;

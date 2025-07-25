@@ -2,8 +2,8 @@ import { useState } from "react";
 import NavBar from "./components/NavBar";
 import Sobre from "./components/Sobre";
 import Habilidades from "./components/Habilidades";
-import Projetos from "./components/projetos";
-import Contatos from "./components/contatos";
+import Projetos from "./components/Projetos";
+import Contatos from "./components/Contatos";
 
 export default function App() {
   const [secaoAtiva, setSecaoAtiva] = useState("Sobre");
