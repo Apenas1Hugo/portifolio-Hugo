@@ -1,8 +1,8 @@
 import { useState } from "react";
-import NavBar from "./components/NavBar";
-import Sobre from "./components/Sobre";
-import Habilidades from "./components/Habilidades";
-import Projetos from "./components/Projetos";
+import NavBar from "./components/NavBarTop";
+import Sobre from "./components/SobreMim";
+import Habilidades from "./components/HabilidadesTec";
+import Projetos from "./components/ProjetosGit";
 import Contatos from "./components/Contato";
 
 export default function App() {
