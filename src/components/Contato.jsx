@@ -44,7 +44,7 @@ const Contatos = () => {
               <FaEnvelope />
             </a>
             <a //Linkedin
-              href=" "
+              href="www.linkedin.com/in/hugo-rodrigues-moura1"
               target="_blank"                                            
               rel="noopener noreferrer"
               className="hover:text-[rgb(65,90,119)] transition-colors"
